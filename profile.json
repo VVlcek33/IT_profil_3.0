@@ -1,13 +1,31 @@
 {
-    "name": "Tvoje jméno",
+    "name": "Václav Vlček",
+    "about": "Jsem student informačních technologií se zaměřením na programování a praktické řešení problémů. IT pro mě není jen obor ve škole, ale dlouhodobý zájem — rád zkouším nové technologie, učím se samostatně z dokumentace a buduju vlastní projekty. Nejvíce mě baví pochopit, jak věci fungují ‘pod kapotou’, a následně vytvořit funkční řešení — od návrhu až po implementaci. Při práci se snažím psát přehledný a udržitelný kód, ne pouze rychlé řešení.",
     "skills": [
-        "skill1",
-        "skill2",
-        "skill3"
+        "základy algoritmizace a datových struktur",
+        "práce s Git (verzování, větve, pull requesty)",
+        "návrh a tvorba menších aplikací",
+        "debugování a hledání chyb",
+        "samostatné vyhledávání informací a práce s dokumentací"
     ],
-    "interests": [
-        "interest1",
-        "interest2",
-        "interest3"
-    ]
+    "technologies": [
+        "Python",
+        "Java",
+        "C#",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL (MySQL / PostgreSQL / SQLite)",
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Linux"
+    ],
+    "projects": [
+        "vývoj aplikací od nuly",
+        "postupné zlepšování kódu",
+        "práci s verzovacím systémem",
+        "dokumentaci projektů"
+    ],
+    "goal": "Mým cílem je získat první komerční zkušenost v IT (junior pozice / stáž), kde můžu rozvíjet své schopnosti, naučit se pracovat v týmu a poznat reálný vývoj software. Jsem motivovaný učit se nové věci, přijímat feedback a dlouhodobě se v oboru zlepšovat."
 }

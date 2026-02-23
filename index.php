@@ -17,29 +17,30 @@ function h($str) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><?php echo isset($profile['name']) ? h($profile['name']) : ''; ?></h1>
+    <div class="container">
+        <h1><?php echo isset($profile['name']) ? h($profile['name']) : ''; ?></h1>
 
-    <?php if (!empty($profile['skills'])): ?>
-        <section>
-            <h2>Dovednosti</h2>
-            <ul>
-                <?php foreach ($profile['skills'] as $skill): ?>
-                    <li><?php echo h($skill); ?></li>
-                <?php endforeach; ?>
-            </ul>
-        </section>
-    <?php endif; ?>
+        <?php if (!empty($profile['skills'])): ?>
+            <section>
+                <h2>Dovednosti</h2>
+                <ul>
+                    <?php foreach ($profile['skills'] as $skill): ?>
+                        <li><?php echo h($skill); ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </section>
+        <?php endif; ?>
 
-    <?php if (!empty($profile['interests'])): ?>
-        <section>
-            <h2>Zájmy / Projekty</h2>
-            <ul>
-                <?php foreach ($profile['interests'] as $item): ?>
-                    <li><?php echo h($item); ?></li>
-                <?php endforeach; ?>
-            </ul>
-        </section>
-    <?php endif; ?>
-
+        <?php if (!empty($profile['interests'])): ?>
+            <section>
+                <h2>Zájmy / Projekty</h2>
+                <ul>
+                    <?php foreach ($profile['interests'] as $item): ?>
+                        <li><?php echo h($item); ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </section>
+        <?php endif; ?>
+    </div>
 </body>
 </html>
