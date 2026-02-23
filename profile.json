@@ -1,0 +1,13 @@
+{
+    "name": "Tvoje jméno",
+    "skills": [
+        "skill1",
+        "skill2",
+        "skill3"
+    ],
+    "interests": [
+        "interest1",
+        "interest2",
+        "interest3"
+    ]
+}
